@@ -17,8 +17,11 @@ module.exports = {
       backgroundImage: (theme) => ({
         "background-1": "url('/background-1.jpg')",
         "background-2": "url('/background-2.jpg')",
+        "background-3": "url('/background-3.jpg')",
       }),
       animation: {
+        "fade-in-back":
+          "fade-in-back 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
         "fade-in-back-rv":
           "fade-in-back 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both reverse",
         "slide-in-blurred-bottom":
