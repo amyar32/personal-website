@@ -1,3 +1,3 @@
 <template>
-  <base-card></base-card>
+  <background-base></background-base>
 </template>

@@ -3,8 +3,8 @@ import App from "./App.vue";
 import router from "./router/index";
 import "./index.css";
 
-import BackgroundBase from "./components/BackgroundBase.vue";
-import BaseCard from "./components/BaseCard.vue";
+import BackgroundBase from "./components/UI/BackgroundBase.vue";
+import BaseCard from "./components/UI/BaseCard.vue";
 import Player from "./components/Player.vue";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -13,6 +13,8 @@ import {
   faHome,
   faBook,
   faUserGraduate,
+  faArrowLeft,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faTwitterSquare,
@@ -30,7 +32,9 @@ library.add(
   faEnvelopeSquare,
   faHome,
   faBook,
-  faUserGraduate
+  faUserGraduate,
+  faArrowLeft,
+  faArrowRight
 );
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.config.productionTip = false;
