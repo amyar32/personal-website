@@ -1,6 +1,6 @@
 # Amyar's Personal Portfolio
 
-Minimalism portofolio webpage by single-page-app frontend framework.
+Minimalism portfolio webpage by single-page-app frontend framework.
 | Title | Link |
 | ------ | ------ |
 | Live View | https://amyar.me |
