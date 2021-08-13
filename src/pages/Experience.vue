@@ -1,7 +1,7 @@
 <template>
   <background-base>
     <div class="h-full w-full flex flex-col items-center md:flex-row">
-      <div class="w-full  md:flex md:h-full md:w-6/12">
+      <div class="w-full md:flex md:h-full md:w-6/12">
         <transition
           enter-active-class="transform duration-700 ease-out"
           enter-from-class="opacity-0 translate-y-9"
@@ -66,7 +66,7 @@
         leave-to-class="opacity-0 translate-y-9"
       >
         <div
-          class="transform w-full flex md:pl-10 flex-col h-4/6 md:w-6/12 justify-between"
+          class="transform w-full flex md:pl-10 flex-col h-3/6 md:w-6/12 justify-between"
           v-if="!showNot"
         >
           <div>
