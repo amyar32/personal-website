@@ -10,11 +10,11 @@
 
     <!-- konten isi  -->
     <div
-      class="flex flex-col items-center h-80 justify-center text-center text-gray-800 px-11 md:w-6/12 md:h-full"
+      class="flex flex-col items-center h-5/6 justify-center text-center text-gray-800 px-10 md:w-6/12 md:h-full"
     >
       <p class="mb-3 text-sm">I was high school in</p>
       <div
-        class="font-bold leading-none text-black text-2xl filter drop-shadow-md w-full mb-3 md:text-4xl"
+        class="font-bold leading-none text-black text-2xl filter drop-shadow-md w-full md:text-4xl"
       >
         MAS PERSIS PADALARANG
       </div>

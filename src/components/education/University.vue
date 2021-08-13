@@ -23,8 +23,8 @@
         <span class="font-bold italic">UIN Sunan Gunung Djati Bandung</span>
       </p>
       <p class="text-xs italic text-center mb-4 md:mb-6">
-        Becoming a Superior and Competitive Informatics Engineering
-        Department/Prodi in ASEAN in 2025 in the Frame of Akhlak Karimah.
+        Becoming a Superior and Competitive Informatics Engineering Department
+        in ASEAN in 2025 in the Frame of Akhlak Karimah.
       </p>
       <a
         class="hidden transition bg-gray-800 text-white px-4 py-1 rounded-xl md:px-8 md:py-2 md:block hover:bg-gray-600"

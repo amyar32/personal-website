@@ -4,7 +4,7 @@
     :class="backgroundControl"
   >
     <div
-      class="transition delay-500 duration-300 justify-center items-center flex w-full h-full bg-black"
+      class="transition-all delay-500 duration-300 justify-center items-center flex w-full h-full bg-black"
       :class="secondLayerControl"
     >
       <slot></slot>
@@ -39,7 +39,7 @@ export default {
           "p-12": true,
         };
       }
-      return { "py-10": true, "px-4": true };
+      return { "p-4": true };
     },
   },
 };

@@ -9,7 +9,7 @@
     </transition>
 
     <button
-      class="transition-all bg-white h-14 w-14 rounded-full shadow-padat-md text-gray-600 text-2xl flex justify-center items-center fixed bottom-50 left-50 top-50 left-50 hover:text-gray-900 hover:text-3xl"
+      class="transition-all bg-white h-14 w-14 rounded-full shadow-padat-md text-gray-600 text-2xl flex justify-center items-center fixed top-5 hover:text-gray-900 hover:text-3xl"
       @click="setSelectedComponent"
     >
       <font-awesome-icon
