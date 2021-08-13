@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      lineHeight: {
+        custom: "0.8",
+      },
       boxShadow: {
         padat: "0px 0px 4px 1px rgba(0, 0, 0, 0.75);",
       },
@@ -13,11 +16,13 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        display: ["Maven Pro"],
       },
       backgroundImage: (theme) => ({
         "background-1": "url('/background-1.jpg')",
         "background-2": "url('/background-2.jpg')",
         "background-3": "url('/background-3.jpg')",
+        noise: "url('/noise.png')",
       }),
       animation: {
         "fade-in-back":

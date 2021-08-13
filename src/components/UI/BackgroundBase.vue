@@ -4,7 +4,7 @@
     :class="backgroundControl"
   >
     <div
-      class="transition-all delay-300 flex justify-center items-center w-full h-full p-12 bg-black"
+      class="transition delay-500 duration-300 justify-center items-center flex w-full h-full bg-black"
       :class="secondLayerControl"
     >
       <slot></slot>
@@ -14,27 +14,32 @@
 
 <script>
 export default {
-  data() {
-    return {
-      backgroundType: "1",
-    };
-  },
   computed: {
     backgroundControl() {
       if (this.$route.path === "/") {
-        return { "bg-background-1": true };
+        return {
+          "bg-background-1": true,
+        };
       } else if (this.$route.path === "/education") {
-        return { "bg-background-2": true };
+        return {
+          "bg-background-2": true,
+        };
       }
-      return {};
+      return { "bg-black": true };
     },
     secondLayerControl() {
       if (this.$route.path === "/") {
-        return { "bg-opacity-60": true };
+        return {
+          "bg-opacity-60": true,
+          "p-12": true,
+        };
       } else if (this.$route.path === "/education") {
-        return { "bg-opacity-80": true };
+        return {
+          "bg-opacity-80": true,
+          "p-12": true,
+        };
       }
-      return {};
+      return { "py-10": true, "px-4": true };
     },
   },
 };
