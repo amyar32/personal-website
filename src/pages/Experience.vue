@@ -70,7 +70,7 @@
           v-if="!showNot"
         >
           <div>
-            <div class="text-white font-bold text-2xl">Basic Tech</div>
+            <div class="text-white font-bold text-2xl">At Least Understand</div>
             <ul class="text-white text-xs md:text-sm list-disc list-inside">
               <li>
                 <span class="font-bold"> Programming Language :</span>
@@ -140,7 +140,20 @@
             <div class="text-white font-bold text-2xl">Web</div>
             <ul class="text-white text-xs md:text-sm list-disc list-inside">
               <li>
-                <a href="https://hisabin.site/" target="_blank">Hisabin.Site</a>
+                <a href="https://hisabin.site/" target="_blank"
+                  >Hisabin.site (Vue 3 - Tailwind - Object-Oriented JS)</a
+                >
+              </li>
+              <li>
+                <a href="https://himapersiskbb.or.id/" target="_blank"
+                  >Himapersiskbb.or.id (Vue 3 - Tailwind w/ daisyUi -
+                  FontAwesome - StrapiCMS)</a
+                >
+              </li>
+              <li>
+                <a href="https://dadjokes-beige.vercel.app/" target="_blank"
+                  >DadJokes-Generator (Vue 3 + Vite, Tailwind)</a
+                >
               </li>
             </ul>
           </div>
